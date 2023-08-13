@@ -1,0 +1,85 @@
+D:/##/PROIECT_BOOTH_OC_ver3/FAC.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/FAC.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module fulladder
+
+Top level modules:
+	fulladder
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/parallel_adder.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/parallel_adder.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module parallel_adder
+
+Top level modules:
+	parallel_adder
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/reg_file.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/reg_file.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module reg_file
+
+Top level modules:
+	reg_file
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/control_unit.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/control_unit.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/parallel_adder_tb.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/parallel_adder_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module parallel_adder_tb
+
+Top level modules:
+	parallel_adder_tb
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/reg_M.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/reg_M.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module reg_M
+
+Top level modules:
+	reg_M
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/REG_FSM.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/REG_FSM.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module reg_fsm
+
+Top level modules:
+	reg_fsm
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/control_unit_tb.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/control_unit_tb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module _testbench
+
+Top level modules:
+	_testbench
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/reg_q.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/reg_q.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module reg_q
+
+Top level modules:
+	reg_q
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/reg_A.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/reg_A.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module reg_A
+
+Top level modules:
+	reg_A
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/test_bench.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/test_bench.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module _reg_file_tb
+
+Top level modules:
+	_reg_file_tb
+
+} {} {}} D:/##/PROIECT_BOOTH_OC_ver3/counter.v {1 {vlog -work work -nocovercells D:/##/PROIECT_BOOTH_OC_ver3/counter.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module counter
+
+Top level modules:
+	counter
+
+} {} {}}

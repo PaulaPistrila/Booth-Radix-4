@@ -1,0 +1,25 @@
+module reg_A (
+  input clk, reset,c0,c2,c5,
+  input [8:0]sum,
+  //sgn semnul acumulatorului
+  //sum rezultatul sumatorului
+  output reg [8:0]rez_A //q continutul registrului
+  );
+  reg sgn;
+always @( negedge reset or posedge c0 or posedge c2 or posedge c5) begin
+    sgn<=rez_A[8]; //salvez bitul de semn
+    if(!reset) //incarc valoarea 0
+      rez_A<=0;
+   else if(c0) 
+     rez_A<=9'b0; // ??
+   
+    if(c2)//daca se efectueaza o suma in paralel adder incarc suma inapoi in A
+      rez_A<=sum;
+    
+    if(c5) begin
+      rez_A<=rez_A>>2;
+      rez_A[8]<=sgn; //dublarea semnului in acumulator
+      rez_A[7]<=sgn;
+end
+end
+endmodule

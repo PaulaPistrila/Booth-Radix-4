@@ -1,0 +1,110 @@
+module booth_radix_4 #( 
+  parameter w=8 
+  )(
+    input [ w:0]M,
+    input [w-1:-1]Q,
+    input clk, rst,
+    output [2*w-1:0]produs
+ 
+);
+
+reg [w:0]A;
+reg [2*w-1:0]produs_reg, produs_next; //produsele partiale
+reg [w:0]minus_M, minus_2M, plus_2M;
+reg [$clog2(w):0]count, count_next;
+
+//calcularea lui -M, -2M, 2M am folosit concatenare si shiftare de biti
+assign minus_M={M[w-1], ~M[w-2:0]}+1;
+assign minus_2M=minus_M<<1; 
+assign plus_2M=M<<1;
+
+reg [2:0]grup_biti; //variabila care retine Q[1].Q[0].Q[-1]
+
+//parametrii pt FSM
+	parameter IDLE = 2'b01, BUSY = 2'b10;
+	reg 	[1 : 0] 		state_reg, state_next;
+	
+//// Always block to update the states
+	always @ (posedge clk)
+		begin
+			if(rst == 1'b 0)
+				begin //starea de asteptare pt un nou set de date, totodata aici ne facem initializarile
+					state_reg <= IDLE;
+					A <= w-1'b 000_0000; //am initializat registrul A cu 0 pe toti bitii
+					produs_reg <= {2*w {1'b 0} };
+					//grup_biti <= 3'b 000;
+					Q[-1] <= 1'b 0;
+					count<=0;
+				end
+			else
+				begin 
+					count <= count_next;
+					state_reg <= state_next;
+					produs_reg <= produs_next>>2; 
+					Q[-1] <= produs_next[0];
+					//mcand_reg <= mcand_next;
+				end
+		end
+		
+		
+		//// Calcularea starii urmatoare si a iesirilor
+	always @ ( * )
+		begin	
+			//// initializari
+			//q_add = 1'b 0;
+			//q_reset =1'b 0;
+			//done = 1'b 0;
+			state_next = state_reg;
+			produs_next = produs_reg;
+			//mcand_next = mcand_reg;
+			
+			case ( state_reg )
+				IDLE	:	
+					begin
+						if( start == 1'b 1 )
+							begin
+								mcand_next = mcand;
+								produs_next = { {N-1 {1'b 0} }, mplier, 1'b 0};
+								state_next = BUSY;
+							end
+						else
+							begin
+								mcand_next = mcand_reg;
+							end
+					end
+					
+				BUSY	:
+					begin
+						q_add = 1'b 1;		// start adder
+						if((q_reg == ( N >> 1)) && (start != 1'b 1))											// after N/2 clock cycles multiplication is done
+							begin
+								done = 1'b 1;
+								q_add = 1'b 0;
+								q_reset = 1'b 1;
+								state_next = IDLE;
+							end
+							
+						//// Booth Decode and Operation, encoding comes from prod_next[2:0] after sequential update 
+						case ({prod_reg[1:0], result_reg})
+							3'b 001		:		prod_next = 		// Add Mcand
+
+							3'b 010		:		prod_next = 		// Add Mcand
+
+							3'b 011		:		prod_next = 		// Add 2*Mcand
+
+							3'b 100		:		prod_next = 		// Sub 2*Mcand
+
+							3'b 101		:		prod_next = 		// Sub Mcand
+
+							3'b 110		:		prod_next = 		// Sub Mcand								
+
+							default 	:		prod_next = 		// Shiftare la dreapta cu 2 pozitii, este cazul 3'b000 si 3'b111
+
+						endcase
+						
+					end  // end BUSY
+				
+			endcase
+			
+	end  // end always
+endmodule

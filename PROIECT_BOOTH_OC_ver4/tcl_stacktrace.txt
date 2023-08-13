@@ -1,0 +1,252 @@
+Mon Apr 10 8:30:44 PM GTB Daylight Time 2023
+Trace back: Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.
+    while executing
+"DesignHasCoverageItem $type $isFec"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::HasCodeCoverageItem" body line 5)
+    invoked from within
+"HasCodeCoverageItem s"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::PropertyCmd" body line 5)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct PropertyCmd set StructurePane_sortColumnV2 data"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-propertycommand) set $prop data"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::setProperty" body line 4)
+    invoked from within
+"setProperty [propertyKey sortColumnV2] columnName"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 43)
+    invoked from within
+"sort $sortIdx $dir"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
+    ("after" script)
+  2: ::tkerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+  1: ::bgerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+Mon Apr 10 10:27:05 PM GTB Daylight Time 2023
+Trace back: Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.
+    while executing
+"DesignHasCoverageItem $type $isFec"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::HasCodeCoverageItem" body line 5)
+    invoked from within
+"HasCodeCoverageItem s"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::PropertyCmd" body line 5)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct PropertyCmd set StructurePane_sortColumnV2 data"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-propertycommand) set $prop data"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::setProperty" body line 4)
+    invoked from within
+"setProperty [propertyKey sortColumnV2] columnName"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 43)
+    invoked from within
+"sort $sortIdx $dir"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
+    ("after" script)
+  2: ::tkerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+  1: ::bgerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+Mon Apr 10 11:24:36 PM GTB Daylight Time 2023
+Trace back: Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.
+    while executing
+"DesignHasCoverageItem $type $isFec"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::HasCodeCoverageItem" body line 5)
+    invoked from within
+"HasCodeCoverageItem s"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::PropertyCmd" body line 5)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct PropertyCmd set StructurePane_sortColumnV2 data"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-propertycommand) set $prop data"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::setProperty" body line 4)
+    invoked from within
+"setProperty [propertyKey sortColumnV2] columnName"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 43)
+    invoked from within
+"sort $sortIdx $dir"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
+    ("after" script)
+  2: ::tkerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+  1: ::bgerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+Mon Apr 10 11:25:51 PM GTB Daylight Time 2023
+Trace back: Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.
+    while executing
+"DesignHasCoverageItem $type $isFec"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::HasCodeCoverageItem" body line 5)
+    invoked from within
+"HasCodeCoverageItem s"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::PropertyCmd" body line 5)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct PropertyCmd set StructurePane_sortColumnV2 data"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-propertycommand) set $prop data"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::setProperty" body line 4)
+    invoked from within
+"setProperty [propertyKey sortColumnV2] columnName"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 43)
+    invoked from within
+"sort $sortIdx $dir"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
+    ("after" script)
+  2: ::tkerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+  1: ::bgerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+Tue Apr 18 9:39:05 AM GTB Daylight Time 2023
+Trace back: Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.
+    while executing
+"DesignHasCoverageItem $type $isFec"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::HasCodeCoverageItem" body line 5)
+    invoked from within
+"HasCodeCoverageItem s"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::PropertyCmd" body line 5)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct PropertyCmd set StructurePane_sortColumnV2 data"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-propertycommand) set $prop data"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::setProperty" body line 4)
+    invoked from within
+"setProperty [propertyKey sortColumnV2] columnName"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 43)
+    invoked from within
+"sort $sortIdx $dir"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
+    ("after" script)
+  2: ::tkerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+  1: ::bgerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+Tue Apr 18 9:58:48 AM GTB Daylight Time 2023
+Trace back: Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.
+    while executing
+"DesignHasCoverageItem $type $isFec"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::HasCodeCoverageItem" body line 5)
+    invoked from within
+"HasCodeCoverageItem s"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::PropertyCmd" body line 5)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct PropertyCmd set StructurePane_sortColumnV2 data"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-propertycommand) set $prop data"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::setProperty" body line 4)
+    invoked from within
+"setProperty [propertyKey sortColumnV2] columnName"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 43)
+    invoked from within
+"sort $sortIdx $dir"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
+    ("after" script)
+  2: ::tkerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+  1: ::bgerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+Tue Apr 18 10:24:03 AM GTB Daylight Time 2023
+Trace back: Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.
+    while executing
+"DesignHasCoverageItem $type $isFec"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::HasCodeCoverageItem" body line 5)
+    invoked from within
+"HasCodeCoverageItem s"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::PropertyCmd" body line 5)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct PropertyCmd set StructurePane_sortColumnV2 data"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-propertycommand) set $prop data"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::setProperty" body line 4)
+    invoked from within
+"setProperty [propertyKey sortColumnV2] columnName"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 43)
+    invoked from within
+"sort $sortIdx $dir"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
+    ("after" script)
+  2: ::tkerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+  1: ::bgerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+Tue Apr 18 10:26:48 PM GTB Daylight Time 2023
+Trace back: Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.
+    while executing
+"DesignHasCoverageItem $type $isFec"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::HasCodeCoverageItem" body line 5)
+    invoked from within
+"HasCodeCoverageItem s"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::PropertyCmd" body line 5)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct PropertyCmd set StructurePane_sortColumnV2 data"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-propertycommand) set $prop data"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::setProperty" body line 4)
+    invoked from within
+"setProperty [propertyKey sortColumnV2] columnName"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 43)
+    invoked from within
+"sort $sortIdx $dir"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
+    ("after" script)
+  2: ::tkerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+  1: ::bgerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+Wed Apr 19 8:20:53 AM GTB Daylight Time 2023
+Trace back: Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.
+    while executing
+"DesignHasCoverageItem $type $isFec"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::HasCodeCoverageItem" body line 5)
+    invoked from within
+"HasCodeCoverageItem s"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::Structurelist::PropertyCmd" body line 5)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct PropertyCmd set StructurePane_sortColumnV2 data"
+    ("eval" body line 1)
+    invoked from within
+"eval $itk_option(-propertycommand) set $prop data"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::setProperty" body line 4)
+    invoked from within
+"setProperty [propertyKey sortColumnV2] columnName"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::sort" body line 43)
+    invoked from within
+"sort $sortIdx $dir"
+    (object "::.main_pane.structure.interior.cs.body.struct" method "::vsimwidgets::Hierarchy::_initializeSortColumn" body line 10)
+    invoked from within
+"::.main_pane.structure.interior.cs.body.struct _initializeSortColumn"
+    (in namespace inscope "::vsimwidgets::Hierarchy" script line 1)
+    invoked from within
+"namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}"
+    ("after" script)
+  2: ::tkerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}
+  1: ::bgerror {Recursive kernel call. Cannot execute DesignHasCoverageItem s 0.}

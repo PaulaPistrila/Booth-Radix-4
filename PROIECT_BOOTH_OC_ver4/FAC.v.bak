@@ -1,0 +1,10 @@
+ module fulladder(
+   input x, y, c,
+   output reg z, c_out
+   );
+always@(*) begin
+  z=x+y+c;
+  c_out=x*y+x*c+y*c;
+end
+
+endmodule
